@@ -2,6 +2,7 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import {
+  CreateProposal,
   CreateAccount,
   MentorDetail,
   EditProfile,
@@ -23,6 +24,7 @@ export function AppRoutes() {
       <Screen name="EditProfile" component={EditProfile} />
       <Screen name="MentorDetail" component={MentorDetail} />
       <Screen name="CreateAccount" component={CreateAccount} />
+      <Screen name="CreateProposal" component={CreateProposal} />
     </Navigator>
   );
 }

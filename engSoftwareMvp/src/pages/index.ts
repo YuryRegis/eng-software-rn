@@ -11,11 +11,13 @@ import EditProfile from "./editProfile";
 import MentorDetail from "./mentorDetail";
 import CreateAccount from "./createAccount";
 import ChangePassword from "./changePassword";
+import CreateProposal from "./createProposal";
 import MyScheduleHistory from "./myScheduleHystory";
 
 export {
   MyScheduleHistory,
   ChangePassword,
+  CreateProposal,
   CreateAccount,
   MentorDetail,
   EditProfile,

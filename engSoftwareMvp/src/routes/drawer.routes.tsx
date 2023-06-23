@@ -8,7 +8,7 @@ import ProfileRoutes from "./profile.routes";
 import SettingsRoutes from "./settings.routes";
 import ScheduleRoutes from "./schedule.routes";
 import DrawerContent from "./util/DrawerContent";
-import { Help, AboutUs, Profile } from "../pages";
+import { Help, AboutUs, Profile, CreateProposal } from "../pages";
 import { DRAWER_STRINGS, IDrawerStrings } from "../language";
 
 const { Navigator, Screen } = createDrawerNavigator();
@@ -43,16 +43,16 @@ function DrawerNavigator() {
           },
         }}
       />
-      {/* <Screen
-        name={strings.webPage}
-        component={DefaultScreen}
+      <Screen
+        name={strings.createProposal}
+        component={CreateProposal}
         options={{
           drawerIcon: ({ color, size, focused }) => {
             const iconName = focused ? "globe" : "globe-outline";
             return <Ionicons name={iconName} size={size} color={color} />;
           },
         }}
-      /> */}
+      />
       <Screen
         name={strings.settings}
         component={SettingsRoutes}

@@ -1,4 +1,5 @@
 export type IDrawerStrings = {
+  createProposal: string;
   schedule: string;
   settings: string;
   profile: string;
@@ -9,6 +10,7 @@ export type IDrawerStrings = {
 
 const DRAWER_STRINGS = {
   "pt-BR": {
+    createProposal: "Criar oferta",
     schedule: "Minhas propostas",
     webPage: "Visitar página web",
     settings: "Configurações",
@@ -17,6 +19,7 @@ const DRAWER_STRINGS = {
     aboutUs: "Sobre nós",
   },
   "en-US": {
+    createProposal: "Create proposal",
     webPage: "Visit web page",
     schedule: "My proposals",
     profile: "My profile",
