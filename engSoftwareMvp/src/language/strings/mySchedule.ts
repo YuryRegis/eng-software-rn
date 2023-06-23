@@ -47,8 +47,8 @@ const MY_SCHEDULE_STRINGS = {
     },
     button: "Go to history",
     tooltip: {
-      solicitation: "Request new proposal",
-      cancel: "Cancel proposal",
+      solicitation: "Accept proposal",
+      cancel: "Deny proposal",
       changeSchedule: "Change terms",
       moreInfo: "More info",
     },
