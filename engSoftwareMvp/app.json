@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Athena Mentorship",
+    "description": "Mentorship for studying anywhere",
+    "slug": "athena-rn",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "icon": "./src/icons/android/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/icons/splash/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1A1A39"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.athena.mentorship",
+      "adaptiveIcon": {
+        "foregroundImage": "./src/icons/android/icon.png",
+        "backgroundColor": "#1A1A39"
+      }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
+  }
+}
