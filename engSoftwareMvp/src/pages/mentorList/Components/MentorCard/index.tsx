@@ -1,5 +1,5 @@
 import React from "react";
-import AppLink from "react-native-app-link";
+import { Linking } from "react-native";
 import { Box, HStack, Avatar, Center } from "native-base";
 
 import Status from "./Status";
@@ -18,12 +18,7 @@ function MentorCard({ user }: IMentorCardProps) {
   const strings: IMentorListStrings = MENTOR_LIST_STRINGS[locale];
 
   function handleButtonPress() {
-    AppLink.maybeOpenURL("https://meet.jit.si/athena-rn", {
-      appStoreLocale: "us",
-      appName: "Jitsi Meet",
-      appStoreId: "org.jitsi.meet",
-      playStoreId: "org.jitsi.meet",
-    });
+    Linking.openURL("https://api.whatsapp.com/send?phone=5535991660387");
   }
 
   return (
