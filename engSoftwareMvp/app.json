@@ -1,12 +1,10 @@
 {
   "expo": {
-    "name": "Athena Mentorship",
-    "description": "Mentorship for studying anywhere",
-    "slug": "athena-rn",
+    "name": "Eng Software MVP",
+    "description": "An App to connect business",
+    "slug": "eng-software-rn",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "icon": "./src/icons/android/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -18,14 +16,12 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.athena.mentorship",
+      "package": "com.eng.software",
       "adaptiveIcon": {
         "foregroundImage": "./src/icons/android/icon.png",
         "backgroundColor": "#1A1A39"
       }
     },
-    "plugins": [
-      "expo-localization"
-    ]
+    "plugins": ["expo-localization"]
   }
 }
