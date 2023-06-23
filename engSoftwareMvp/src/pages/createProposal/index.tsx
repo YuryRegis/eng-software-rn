@@ -61,7 +61,9 @@ function CreateProposal() {
                 title={"Category"}
                 name={strings.form.userName.name}
                 control={control}
-                errorMessage={"Category field is required"}
+                errorMessage={
+                  formState.errors?.length && "Category field is required"
+                }
               />
             </Box>
 
@@ -70,16 +72,22 @@ function CreateProposal() {
                 title={"Proposal Name"}
                 name={strings.form.lastName.name}
                 control={control}
-                errorMessage={"Proposal name is required"}
+                errorMessage={
+                  formState.errors?.length && "Proposal name is required"
+                }
               />
             </Box>
 
             <Box>
               <FormInput
+                h={100}
+                multiline={true}
+                control={control}
                 title={"Description"}
                 name={strings.form.lastName.name}
-                control={control}
-                errorMessage={"Description field is required"}
+                errorMessage={
+                  formState.errors?.length && "Description field is required"
+                }
               />
             </Box>
 
@@ -88,7 +96,9 @@ function CreateProposal() {
                 title={"Price"}
                 name={strings.form.userName.name}
                 control={control}
-                errorMessage={"This field is required"}
+                errorMessage={
+                  formState.errors?.length && "This field is required"
+                }
               />
             </Box>
 
